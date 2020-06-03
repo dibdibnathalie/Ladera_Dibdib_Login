@@ -1,0 +1,60 @@
+
+<!-- LADERA AND DIBDIB -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Log-In Form</title>
+    <link rel="stylesheet" href="css\login.css">
+    
+</head>
+
+
+<body>
+    <div class="login"> 
+        
+        <nav class="navbar fixed-top navbar-light">
+            <a class="navbar-brand" href="#">LOG-IN FORM</a>
+          </nav>
+
+        <form id="form" class="form-login center">
+
+            <img src="loginlogo.png" alt="loginlogo" class="loglogo">
+                
+            <div class="adminAlert alert-success">
+                It Works!
+            </div>
+
+            <div class="login-group">
+                <label for="username">Username</label>
+                <input type="username" class="form-control" id="username">
+            </div>
+
+            <div class="login-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password">
+            </div>
+            
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+              </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="submit">Sign In</button>
+
+            <div class="userAlert alert-success">
+                It Works!
+            </div>
+
+        </form>
+    </div> 
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+</html>
